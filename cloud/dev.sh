@@ -30,7 +30,7 @@ if [[ "$OS_TYPE" == "Linux" ]]; then
     exit 2;
   fi
 elif [[ "$OS_TYPE" == "Darwin" ]]; then
-  echo "Detected macOS. Bonjour is required (pre-installed on macOS)."
+  echo "Detected macOS. Running Bonjour (pre-installed on macOS)."
 else
   echo "Unsupported OS: $OS_TYPE"
   exit 3
@@ -38,7 +38,7 @@ fi
 
 # Docker daemon check (cross-platform)
 if ! docker info > /dev/null 2>&1; then
-  echo "** Error: Cannot connect to the Docker daemon. Is Docker Desktop running?"
+  echo "** Error: Cannot connect to the Docker daemon. Run Docker"
   exit 4
 fi
 

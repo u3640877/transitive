@@ -667,7 +667,7 @@ class _robotAgent extends Capability {
   * billing service. */
   async updateAllSubscriptions() {
 
-    const running = this.data.filter(['+', '+', '@transitive-robotics',
+    const running = this.data.filter(['+','+', '@transitive-robotics',
       '_robot-agent', '+', 'status', 'runningPackages']);
     // log.debug('updateSubscriptions, running', JSON.stringify(running, true, 2));
 
@@ -686,7 +686,7 @@ class _robotAgent extends Capability {
         if (!this.isRunning(orgId, deviceId)) return;
 
         const allVersions = deviceRunning['@transitive-robotics']['_robot-agent'];
-        const merged = mergeVersions(allVersions, 'status/runningPackages');
+        const merged = mergeVersions(allVersions, 'status');
         const pkgRunning = merged.status.runningPackages;
 
         log.debug(`running packages, ${orgId}/${deviceId}:`,
@@ -1394,6 +1394,18 @@ class _robotAgent extends Capability {
         `/${orgId}/${deviceId}/@transitive-robotics/_robot-agent/${agentVersion}/rpc/${command}`,
         req.body || {});
       res.json({result});
+    });
+
+    this.router.get('/api/devices', async (req, res) => {
+      // Only allow if logged in
+      if (!req.session || !req.session.user) {
+        return res.status(401).json({error: 'Not authorized'});
+      }
+      const user = req.query.user;
+      if (!user) return res.status(400).json({error: 'Missing user'});
+      // Query the devices collection for this user
+      const devices = await Mongo.db.collection('devices').find({user}).toArray();
+      res.json({devices: devices.map(d => ({id: d.deviceId, name: d.name}))});
     });
   }
 };

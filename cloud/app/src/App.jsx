@@ -340,11 +340,14 @@ const Portal = () => {
           <Route path="/security" element={<Security />} />
 
           <Route path="/" element={
-              <Capability webComponent='robot-agent-fleet'
-                capability='@transitive-robotics/_robot-agent'
-                device_url='/device'
-                disableEmbed={true}
+              <>
+                <DeviceList />
+                <Capability webComponent='robot-agent-fleet'
+                  capability='@transitive-robotics/_robot-agent'
+                  device_url='/device'
+                  disableEmbed={true}
                 />
+              </>
             }/>
 
           <Route path="/device/:deviceId" element={

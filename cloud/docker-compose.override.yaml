@@ -13,6 +13,8 @@ services:
   mongodb:
     build: ./mongo
 
+  
+
   mosquitto_prod:
     build: ./mosquitto
 
@@ -20,6 +22,7 @@ services:
     build: ./mosquitto
     volumes:
       - ./mosquitto/auth-transitive:/build/mosq/plugins/auth-transitive
+    ports: []
 
   cloud_prod:
     build:

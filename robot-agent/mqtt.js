@@ -58,16 +58,40 @@ assert(version, 'env var npm_package_version is required');
 
 const subOptions = {rap: true};
 
-// connect to upstream mqtt server
-const mqttClient = mqtt.connect(MQTT_HOST, {
-  key: fs.readFileSync('certs/client.key'),
-  cert: fs.readFileSync('certs/client.crt'),
-  rejectUnauthorized: false,
-  protocolVersion: 5 // needed for the `rap` option, i.e., to get retain flags
+// figure out upstream broker URL
+const brokerUrl = process.env.TR_MQTT_URL
+  || `mqtts://${process.env.TR_HOST.includes(':')
+       ? process.env.TR_HOST
+       : 'data.' + process.env.TR_HOST}`;
+
+console.log(`[robot-agent] ▶ connecting to MQTT broker at ${brokerUrl}`);
+
+// read your CA file
+const caPath = process.env.NODE_EXTRA_CA_CERTS;
+let ca;
+try {
+  ca = fs.readFileSync(caPath);
+  console.log(`[robot-agent] ▶ loaded CA from ${caPath}`);
+} catch (err) {
+  console.error(`[robot-agent] ✖ failed to load CA:`, err.message);
+}
+
+// connect with explicit TLS options
+const mqttClient = mqtt.connect(brokerUrl, {
+  ca:       ca ? [ca] : undefined,
+  // for debugging you can temporarily disable cert checks:
+  // rejectUnauthorized: false,
+  reconnectPeriod: 5000,
+  connectTimeout:  10_000,
 });
 
-mqttClient.on('error', (...args) => log.warn('mqtt error', ...args));
-mqttClient.on('disconnect', (...args) => log.warn('mqtt disconnect', ...args));
+mqttClient.on('connect',    () => console.log('[robot-agent] ▶ CONNECTED'));
+mqttClient.on('reconnect',  () => console.log('[robot-agent] ↻ reconnecting…'));
+mqttClient.on('close',      () => console.log('[robot-agent] ■ connection closed'));
+mqttClient.on('offline',    () => console.log('[robot-agent] ■ went offline'));
+mqttClient.on('error',      e  => console.error('[robot-agent] ✖ ERROR', e.message));
+mqttClient.on('packetsend', p => console.log('[robot-agent] ◀ SENT', p.cmd));
+mqttClient.on('packetreceive', p => console.log('[robot-agent] ▶ RECV', p.cmd));
 
 let initialized = false;
 let mqttSync;

@@ -389,6 +389,40 @@ const Apps = () => {
   </Router>;
 };
 
+/** List all devices for the current user */
+const DeviceList = () => {
+  const {session} = useContext(UserContext);
+  const [devices, setDevices] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    if (!session) return;
+    fetchJson(`/api/devices?user=${session.user}`, (err, res) => {
+      setLoading(false);
+      if (err) {
+        setDevices([]);
+      } else {
+        setDevices(res.devices || []);
+      }
+    });
+  }, [session]);
+
+  if (loading) return <div>Loading devices...</div>;
+  if (!devices.length) return <div>No devices found.</div>;
+
+  return (
+    <div>
+      <h3>Your Devices</h3>
+      <ul>
+        {devices.map(device =>
+          <li key={device.id}>
+            <Link to={`/device/${device.id}`}>{device.id}</Link>
+          </li>
+        )}
+      </ul>
+    </div>
+  );
+};
 
 export default () => {
   return <div>

@@ -345,7 +345,8 @@ const Device = (props) => {
           // received pong back from server for our ping:
           log.debug({ping, pong}, `round-trip: ${Date.now() - ping} ms`);
         });
-      }}, [mqttSync]);
+      }
+    }, [mqttSync]);
 
   const deviceData = data && data[id] && data[id][device] &&
     data[id][device]['@transitive-robotics']['_robot-agent'];
@@ -435,15 +436,33 @@ const Device = (props) => {
 
   log.debug({latestVersionData, packages, toast});
 
-  return <div>
-    <div style={styles.row}>
-      <OSInfo info={latestVersionData?.info}/>
-      {latestVersionData.status?.heartbeat &&
-          <Heartbeat heartbeat={latestVersionData.status.heartbeat}/>
-      } <span style={styles.agentVersion} title='Transitive agent version'>
-        v{latestVersion}
-      </span>&nbsp;&nbsp; <ActionLink disabled={inactive}
-        onClick={() => runCommand('ping', {timestamp: Date.now()},
+  return (
+    <div style={styles.container}>
+      <h3>{props.id}</h3>
+
+      {/* START: Added Connection Status Display */}
+      <div style={{padding: '10px', border: '1px solid #eee', margin: '10px 0', borderRadius: '4px'}}>
+        <h4>Connection Status:</h4>
+        {latestVersionData?.status?.heartbeat ? (
+          <>
+            <p style={{margin: '5px 0'}}>
+              Last Heartbeat: {new Date(latestVersionData.status.heartbeat).toLocaleString()}
+            </p>
+            <p style={{margin: '5px 0'}}>
+              Status: {Date.now() - new Date(latestVersionData.status.heartbeat).getTime() < 120000 ?
+                <span style={{color: 'green', fontWeight: 'bold'}}>Connected</span> :
+                <span style={{color: 'red', fontWeight: 'bold'}}>Disconnected (Last seen &gt; 2 min ago)</span>
+              }
+            </p>
+          </>
+        ) : (
+          <p style={{margin: '5px 0'}}>Status: <span style={{color: 'orange', fontWeight: 'bold'}}>No heartbeat received yet.</span></p>
+        )}
+      </div>
+      {/* END: Added Connection Status Display */}
+
+      <>
+        <ActionLink onClick={() => runCommand('ping', {time: Date.now()},
           (time) => setToast({ title: 'Pong!',
             body: `Server time: ${new Date(time)}`})
         )}
@@ -459,6 +478,7 @@ const Device = (props) => {
         explanation={explanation} question='Remove device?'>
         Remove device
       </ConfirmedButton>
+      </>
 
       <Fold title="Configuration">
         <div style={styles.row}>
@@ -469,65 +489,67 @@ const Device = (props) => {
               }/>}
         </div>
       </Fold>
-    </div>
 
-    <SelfCheck data={latestVersionData} agentPrefix={versionPrefix} />
+      <SelfCheck data={latestVersionData} agentPrefix={versionPrefix} />
 
-    <MyToast toast={toast} onClose={() => setToast(null)}/>
+      <MyToast toast={toast} onClose={() => setToast(null)}/>
 
 
-    <div style={styles.row}>
-      <h5>Capabilities</h5>
-      { hasDisabled && <Alert variant='danger'>
-        <FaExclamationTriangle /> Some capabilities have been disabled because your free trial has expired.
-        Please add a payment method in Billing and reinstall the capabilities.
-      </Alert>}
+      <div style={styles.row}>
+        <h5>Capabilities</h5>
+        { hasDisabled && <Alert variant='danger'>
+          <FaExclamationTriangle /> Some capabilities have been disabled because your free trial has expired.
+          Please add a payment method in Billing and reinstall the capabilities.
+        </Alert>}
 
-      <Accordion defaultActiveKey={['0']} alwaysOpen>
-        { Object.keys(packages).length > 0 ?
-          mapSorted(packages, ({running, desired, status, disabled}, name) =>
-            <Capability key={name} {...{
-                mqttSync, desiredPackagesTopic, versionPrefix, device,
-                running, desired, status, disabled, inactive,
-                name, title: getPkgTitle(name, availablePackages),
-                setPkgLog, canPay
-              }} />
-          ) :
-          <ListGroup.Item>No capabilities added yet.</ListGroup.Item>
-        }
+        <Accordion defaultActiveKey={['0']} alwaysOpen>
+          { Object.keys(packages).length > 0 ?
+            mapSorted(packages, ({running, desired, status, disabled}, name) =>
+              <Capability key={name} {...{
+                  mqttSync, desiredPackagesTopic, versionPrefix, device,
+                  running, desired, status, disabled, inactive,
+                  name, title: getPkgTitle(name, availablePackages),
+                  setPkgLog, canPay
+                }} />
+            ) :
+            <ListGroup.Item>No capabilities added yet.</ListGroup.Item>
+          }
 
-        {/* Fold-out for adding capabilities */}
-        { latestVersionData.status?.ready ? <F>
-            <Accordion.Item eventKey="1">
-              <Accordion.Header><MdAdd/> Add Capabilities</Accordion.Header>
+          {/* Fold-out for adding capabilities */}
+          { latestVersionData.status?.ready ? <F>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header><MdAdd/> Add Capabilities</Accordion.Header>
+              </Accordion.Item>
+              {mapSorted(canBeInstalledPkgs, pkg => {
+                  const issues = failsRequirements(info, pkg);
+
+                  const price = pkg.versions?.[0].transitiverobotics?.price;
+                  if (price && !canPay) {
+                    issues.push('Please add a payment method in Billing.');
+                  }
+
+                  return <Accordion.Item eventKey="1" key={pkg._id}>
+                    <Accordion.Body>
+                      <Package {...{pkg, install, issues}} />
+                    </Accordion.Body>
+                  </Accordion.Item>
+                })
+              }
+            </F>
+            : !inactive && <Accordion.Item eventKey="0">
+              <Accordion.Body><Spinner animation="border" size="sm"
+                  /> Waiting for agent getting ready.</Accordion.Body>
             </Accordion.Item>
-            {mapSorted(canBeInstalledPkgs, pkg => {
-                const issues = failsRequirements(info, pkg);
+          }
+        </Accordion>
+      </div>
 
-                const price = pkg.versions?.[0].transitiverobotics?.price;
-                if (price && !canPay) {
-                  issues.push('Please add a payment method in Billing.');
-                }
-
-                return <Accordion.Item eventKey="1" key={pkg._id}>
-                  <Accordion.Body>
-                    <Package {...{pkg, install, issues}} />
-                  </Accordion.Body>
-                </Accordion.Item>
-              })
-            }
-          </F>
-          : !inactive && <Accordion.Item eventKey="0">
-            <Accordion.Body><Spinner animation="border" size="sm"
-                /> Waiting for agent getting ready.</Accordion.Body>
-          </Accordion.Item>
-        }
-      </Accordion>
+      {pkgLog && <PkgLog response={pkgLog} hide={() => setPkgLog()}/>}
     </div>
+  );
 
-    {pkgLog && <PkgLog response={pkgLog} hide={() => setPkgLog()}/>}
-  </div>
 };
+
 
 
 createWebComponent(Device, 'robot-agent-device');

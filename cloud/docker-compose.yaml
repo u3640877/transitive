@@ -47,6 +47,8 @@ x-mosquitto: &shared_mosquitto
   volumes:
     - ${TR_VAR_DIR:-.}/certs:/mosquitto/certs
     - ${TR_VAR_DIR:-.}/mqtt_persistence:/persistence
+    - ./config-main/mosquitto.conf:/mosquitto/config/mosquitto.conf
+    - ./config-bridge:/mosquitto/config/bridge
   ports:
     - 8883:8883
     - 9001:9001
@@ -135,6 +137,9 @@ services:
     volumes:
       - ${TR_VAR_DIR:-.}/certs:/mosquitto/certs
       - ${TR_VAR_DIR:-.}/mqtt_persistence:/persistence
+    ports:
+      - "28883:8883"  # Current mapping
+#      - "18883:8883"  # Add this line to expose the same broker on port 18883
 
   cloud_prod:
     <<: *shared_cloud

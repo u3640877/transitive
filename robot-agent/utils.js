@@ -43,6 +43,12 @@ e.g., @transitive-robotics/test1 */
 const addPackage = (addedPkg) => {
   log.debug(`adding package ${addedPkg}`);
   const dir = `${constants.TRANSITIVE_DIR}/packages/${addedPkg}`;
+  // PATCH: If dir is a symlink, skip overwrite but DO start the package
+  if (fs.existsSync(dir) && fs.lstatSync(dir).isSymbolicLink()) {
+    log.debug(`Skipping addPackage for symlinked package ${addedPkg}`);
+    startPackage(addedPkg); // <-- Add this line
+    return;
+  }
   fs.mkdirSync(dir, {recursive: true});
   fs.copyFileSync(`${constants.TRANSITIVE_DIR}/.npmrc`, `${dir}/.npmrc`);
   fs.writeFileSync(`${dir}/package.json`,

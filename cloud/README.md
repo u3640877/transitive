@@ -96,7 +96,7 @@ docker-compose --profile dev up -d
 ```
 restart
 ```bash
-cd d:\Research\transitive\cloud
+cd /mnt/d/Research/transitive/cloud
 docker-compose --profile dev up -d --build cloud_dev
 ```
 

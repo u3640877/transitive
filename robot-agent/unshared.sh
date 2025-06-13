@@ -1,5 +1,5 @@
 #!/bin/bash
-
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH"
 # WARNING: DO NOT RUN THIS SCRIPT DIRECTLY! Run it in an `unshare -m`.
 
 RODIR=/tmp/_tr_ro
@@ -28,28 +28,27 @@ mount --rbind /run /var/run
 # $REALUSER is not root when we are in an `unshare -r`
 if [[ $REALUSER != "root" ]]; then
   # create fs overlays for /usr and /opt; will be bind-mounted later
-  # TODO: this doesn't need to be per-capability; can't we create this once and
-  # then use nsenter (or similar) to share that setup among caps?
-  # No, I don't think so. There is no merging of mount namespaces I think.
-  mkdir -p $HOME/.transitive/tmp
-  TMP=$(mktemp -d -p $HOME/.transitive/tmp)
-  for folder in usr opt; do
-    mkdir -p $TMP/$folder/{workdir,merged}
-    mkdir -p $HOME/.transitive/$folder # in case it doesn't exist
-    mount -t overlay overlay -olowerdir=/$folder,upperdir=$HOME/.transitive/$folder,workdir=$TMP/$folder/workdir $TMP/$folder/merged
-
-    # mount back any overlays and bind-mounts in the original
-    for path in $(mount | grep "^overlay on /$folder" | cut -d ' ' -f 3); do
-      subpath=$(echo $path | cut -d '/' -f 3-)
-      echo $path $subpath
-      mount --rbind $path $TMP/$folder/merged/$subpath
-    done
-    for path in $(mount | grep "^/dev/\S* on /$folder" | cut -d ' ' -f 3); do
-      subpath=$(echo $path | cut -d '/' -f 3-)
-      mount --rbind $path $TMP/$folder/merged/$subpath
-    done
-
-  done;
+  # PATCH: skip overlays for WSL2/dev
+  echo "Skipping overlay mounts for development"
+  # mkdir -p $HOME/.transitive/tmp
+  # TMP=$(mktemp -d -p $HOME/.transitive/tmp)
+  # for folder in usr opt; do
+  #   mkdir -p $TMP/$folder/{workdir,merged}
+  #   mkdir -p $HOME/.transitive/$folder # in case it doesn't exist
+  #   mount -t overlay overlay -olowerdir=/$folder,upperdir=$HOME/.transitive/$folder,workdir=$TMP/$folder/workdir $TMP/$folder/merged
+  #
+  #   # mount back any overlays and bind-mounts in the original
+  #   for path in $(mount | grep "^overlay on /$folder" | cut -d ' ' -f 3); do
+  #     subpath=$(echo $path | cut -d '/' -f 3-)
+  #     echo $path $subpath
+  #     mount --rbind $path $TMP/$folder/merged/$subpath
+  #   done
+  #   for path in $(mount | grep "^/dev/\S* on /$folder" | cut -d ' ' -f 3); do
+  #     subpath=$(echo $path | cut -d '/' -f 3-)
+  #     mount --rbind $path $TMP/$folder/merged/$subpath
+  #   done
+  #
+  # done;
 else
   echo "we are root, not using overlays";
 fi;
@@ -98,9 +97,12 @@ if [[ $SUDO_COMMAND ]]; then
 #   # original user instead we can try revertuid (see tmp/experiments/revertuid).
 #   echo "becoming nobody"
 #   unshare -U bash -c "cd && $*"
+#elif [[ $REALUID ]]; then
+#  echo "reverting to UID $REALUID + GID $REALGID again"
+#  /home/bin/revertuid $REALUID $REALGID bash -c "id && cd && $*"
 elif [[ $REALUID ]]; then
   echo "reverting to UID $REALUID + GID $REALGID again"
-  /home/bin/revertuid $REALUID $REALGID bash -c "id && cd && $*"
+  bash -c "id && cd && $*"
 else
   echo "we are real root, staying root"
   bash -c "cd && $*"

@@ -1,13 +1,1 @@
-{
-  "main": "main.js",
-  "scripts": {
-    "test": "jest --watch *.test.js",
-    "start": "node --preserve-symlinks $NODE_ARGS main.js",
-    "preall": "[ ! -e preall.sh ] || bash preall.sh"
-  },
-  "author": "",
-  "license": "UNLICENSED",
-  "dependencies": {
-    "@transitive-sdk/utils": "^0.9.5"
-  }
-}
+{ "dependencies": {"@transitive-robotics/initializer": "*"} }

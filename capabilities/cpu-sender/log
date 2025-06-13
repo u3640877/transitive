@@ -1,0 +1,123 @@
+using unshare -r
+preparing sandbox for @transitive-robotics/cpu-sender (alonso)
+Skipping overlay mounts for development
+mount: /usr: special device /usr/merged does not exist.
+mount: /opt: special device /opt/merged does not exist.
+reverting to UID 1000 + GID 1000 again
+uid=0(root) gid=0(root) groups=0(root),65534(nogroup)
+found ROS noetic, sourcing it
+starting while loop for @transitive-robotics/cpu-sender: pid = 16879
+(node:16918) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Package                Current   Wanted  Latest  Location                            Depended by
+@transitive-sdk/utils  0.12.20  0.12.20  0.13.0  node_modules/@transitive-sdk/utils  transitive
+mqtt                     4.3.8    4.3.8  5.13.1  node_modules/mqtt                   transitive
+(node:16931) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+up to date, audited 166 packages in 4s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+2 vulnerabilities (1 moderate, 1 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+(node:16942) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+up to date, audited 166 packages in 2s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+2 vulnerabilities (1 moderate, 1 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/cpu-sender: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 16955
+
+> @transitive-robotics/cpu-sender@1.0.0 start
+> node main.js
+
+(node:16967) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2025-06-13T08:41:39.276Z cpu-sender info] Connected to MQTT broker
+[2025-06-13T08:41:39.285Z cpu-sender info] Subscribed to agent/mockbot001/cpu_value for CPU updates from agent.
+[2025-06-13T08:41:40.687Z cpu-sender debug] Received CPU usage from agent: 26
+[2025-06-13T08:41:43.689Z cpu-sender debug] Received CPU usage from agent: 9
+[2025-06-13T08:41:44.284Z cpu-sender info] Published CPU usage to /device/cpu {
+  device: 'mockbot001',
+  cpuUsage: 9,
+  timestamp: '2025-06-13T08:41:44.282Z'
+}
+[2025-06-13T08:41:46.691Z cpu-sender debug] Received CPU usage from agent: 80
+[2025-06-13T08:41:49.286Z cpu-sender info] Published CPU usage to /device/cpu {
+  device: 'mockbot001',
+  cpuUsage: 80,
+  timestamp: '2025-06-13T08:41:49.285Z'
+}
+[2025-06-13T08:41:49.694Z cpu-sender debug] Received CPU usage from agent: 45
+[2025-06-13T08:41:52.695Z cpu-sender debug] Received CPU usage from agent: 49
+[2025-06-13T08:41:54.288Z cpu-sender info] Published CPU usage to /device/cpu {
+  device: 'mockbot001',
+  cpuUsage: 49,
+  timestamp: '2025-06-13T08:41:54.287Z'
+}
+[2025-06-13T08:41:55.698Z cpu-sender debug] Received CPU usage from agent: 33
+[2025-06-13T08:41:59.292Z cpu-sender info] Published CPU usage to /device/cpu {
+  device: 'mockbot001',
+  cpuUsage: 33,
+  timestamp: '2025-06-13T08:41:59.291Z'
+}
+[2025-06-13T08:42:02.008Z cpu-sender debug] Received CPU usage from agent: 73
+[2025-06-13T08:42:02.011Z cpu-sender debug] Received CPU usage from agent: 38
+[2025-06-13T08:42:04.293Z cpu-sender info] Published CPU usage to /device/cpu {
+  device: 'mockbot001',
+  cpuUsage: 38,
+  timestamp: '2025-06-13T08:42:04.292Z'
+}
+[2025-06-13T08:42:04.705Z cpu-sender debug] Received CPU usage from agent: 87
+[2025-06-13T08:42:07.709Z cpu-sender debug] Received CPU usage from agent: 44
+[2025-06-13T08:42:09.295Z cpu-sender info] Published CPU usage to /device/cpu {
+  device: 'mockbot001',
+  cpuUsage: 44,
+  timestamp: '2025-06-13T08:42:09.294Z'
+}
+[2025-06-13T08:42:10.713Z cpu-sender debug] Received CPU usage from agent: 66
+[2025-06-13T08:42:13.715Z cpu-sender debug] Received CPU usage from agent: 32
+[2025-06-13T08:42:14.296Z cpu-sender info] Published CPU usage to /device/cpu {
+  device: 'mockbot001',
+  cpuUsage: 32,
+  timestamp: '2025-06-13T08:42:14.295Z'
+}
+[2025-06-13T08:42:16.719Z cpu-sender debug] Received CPU usage from agent: 21
+[2025-06-13T08:42:19.298Z cpu-sender info] Published CPU usage to /device/cpu {
+  device: 'mockbot001',
+  cpuUsage: 21,
+  timestamp: '2025-06-13T08:42:19.298Z'
+}
+[2025-06-13T08:42:19.719Z cpu-sender debug] Received CPU usage from agent: 11
+[2025-06-13T08:42:24.303Z cpu-sender info] Published CPU usage to /device/cpu {
+  device: 'mockbot001',
+  cpuUsage: 11,
+  timestamp: '2025-06-13T08:42:24.302Z'
+}
+SIGTERM: stopping -16955 and exiting
+[1]+  Terminated              npm start

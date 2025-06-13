@@ -1,0 +1,18 @@
+{
+  "name": "@transitive-robotics/cpu-sender",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "mqtt": "^4.3.7",
+    "@transitive-sdk/utils": "^0.12.4"
+  },
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "scripts": {
+    "start": "node main.js"
+  }
+}

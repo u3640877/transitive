@@ -1,5 +1,3 @@
-
-
 const fs = require('fs');
 const constants = require('./constants');
 const { getConfig } = require('./config');
@@ -158,4 +156,70 @@ localApi.startServer();
 /** catch-all to be safe */
 process.on('uncaughtException', (err) => {
   console.error(`**** Caught exception: ${err}:`, err.stack);
+});
+const mqtt = require('mqtt');
+const os = require('os');
+global.DEVICE_ID = process.env.TR_DEVICEID || os.hostname();
+
+const AGENT_PREFIX = `agent/${process.env.TR_USERID}`;
+
+// Default to localhost if not set
+const MQTT_HOST = process.env.TR_MQTT_URL || 'mqtt://localhost';
+const MQTT_PORT = process.env.TR_MQTT_PORT || 1883;
+
+const mqttClient = mqtt.connect(`${MQTT_HOST}`, {
+  clientId: `agent_${process.env.TR_USERID}`,
+  clean: true,
+  reconnectPeriod: 1000,
+  connectTimeout: 30 * 1000,
+  will: {
+    topic: `${AGENT_PREFIX}/connected`,
+    payload: '0',
+    qos: 2,
+    retain: true
+  }
+});
+global.mqttClient = mqttClient;
+
+mqttClient.on('connect', () => {
+  log.info('MQTT connected');
+  global.mqttConnected = true;
+  mqttClient.publish(`${AGENT_PREFIX}/connected`, '2', { qos: 2, retain: true });
+
+  // Publish agent information
+  const agentInfo = {
+    version: process.env.npm_package_version,
+    uptime: process.uptime(),
+    timestamp: Date.now()
+  };
+  mqttClient.publish(`${AGENT_PREFIX}/info`, JSON.stringify(agentInfo), { qos: 2, retain: true });
+
+  // Publish a random CPU value every 3 seconds
+  const deviceId = global.DEVICE_ID || os.hostname();
+  const cpuValueTopic = `agent/${global.DEVICE_ID}/cpu_value`;
+
+  setInterval(() => {
+    if (global.mqttConnected) {
+      const randomCpuUsage = Math.round(Math.random() * 100);
+      const payload = JSON.stringify({ value: randomCpuUsage });
+      mqttClient.publish(cpuValueTopic, payload, (err) => {
+        if (err) {
+          log.error(`Failed to publish CPU value to ${cpuValueTopic}:`, err);
+        } else {
+          log.debug(`Published CPU value to ${cpuValueTopic}: ${payload}`);
+        }
+      });
+    }
+  }, 3000); // Send every 3 seconds
+
+  // Request reboot if we are in a reboot loop
+  const rebootLoopCount = parseInt(process.env.TR_REBOOT_LOOP_COUNT || '0');
+  if (rebootLoopCount > 0) {
+    const payload = JSON.stringify({ action: 'reboot' });
+    mqttClient.publish(`${AGENT_PREFIX}/control`, payload, { qos: 2, retain: true });
+  }
+});
+
+mqttClient.on('error', (err) => {
+  log.error('MQTT connection error:', err);
 });

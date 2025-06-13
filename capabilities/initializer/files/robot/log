@@ -1,0 +1,2901 @@
+using unshare -r
+preparing sandbox for @transitive-robotics/initializer (alonso)
+mount: /home/alonso/.transitive/tmp/tmp.TZpX5DQWfJ/usr/merged: wrong fs type, bad option, bad superblock on overlay, missing codepage or helper program, or other error.
+/home/alonso/.transitive/unshared.sh: line 71: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 75: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 77: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 79: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 80: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 82: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 85: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 86: ln: command not found
+reverting to UID 1000 + GID 1000 again
+/home/alonso/.transitive/unshared.sh: line 103: /home/bin/revertuid: No such file or directory
+using unshare -r
+preparing sandbox for @transitive-robotics/initializer (alonso)
+mount: /home/alonso/.transitive/tmp/tmp.tTUXa5Mz91/usr/merged: wrong fs type, bad option, bad superblock on overlay, missing codepage or helper program, or other error.
+/home/alonso/.transitive/unshared.sh: line 71: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 75: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 77: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 79: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 80: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 82: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 85: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 86: ln: command not found
+reverting to UID 1000 + GID 1000 again
+/home/alonso/.transitive/unshared.sh: line 103: /home/bin/revertuid: No such file or directory
+using unshare -r
+preparing sandbox for @transitive-robotics/initializer (alonso)
+mount: /home/alonso/.transitive/tmp/tmp.fGIFLF8ckV/usr/merged: wrong fs type, bad option, bad superblock on overlay, missing codepage or helper program, or other error.
+/home/alonso/.transitive/unshared.sh: line 71: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 75: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 77: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 79: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 80: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 82: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 85: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 86: ln: command not found
+reverting to UID 1000 + GID 1000 again
+/home/alonso/.transitive/unshared.sh: line 103: /home/bin/revertuid: No such file or directory
+using unshare -r
+preparing sandbox for @transitive-robotics/initializer (alonso)
+mount: /home/alonso/.transitive/tmp/tmp.WcSvX3u2zS/usr/merged: wrong fs type, bad option, bad superblock on overlay, missing codepage or helper program, or other error.
+/home/alonso/.transitive/unshared.sh: line 71: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 75: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 77: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 79: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 80: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 82: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 85: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 86: ln: command not found
+reverting to UID 1000 + GID 1000 again
+/home/alonso/.transitive/unshared.sh: line 103: /home/bin/revertuid: No such file or directory
+using unshare -r
+preparing sandbox for @transitive-robotics/initializer (alonso)
+mount: /home/alonso/.transitive/tmp/tmp.9nsMMsQoLU/usr/merged: wrong fs type, bad option, bad superblock on overlay, missing codepage or helper program, or other error.
+/home/alonso/.transitive/unshared.sh: line 71: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 75: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 77: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 79: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 80: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 82: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 85: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 86: ln: command not found
+reverting to UID 1000 + GID 1000 again
+/home/alonso/.transitive/unshared.sh: line 103: /home/bin/revertuid: No such file or directory
+using unshare -r
+preparing sandbox for @transitive-robotics/initializer (alonso)
+mount: /home/alonso/.transitive/tmp/tmp.Wk6cDAaOyT/usr/merged: wrong fs type, bad option, bad superblock on overlay, missing codepage or helper program, or other error.
+/home/alonso/.transitive/unshared.sh: line 71: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 75: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 77: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 79: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 80: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 82: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 85: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 86: ln: command not found
+reverting to UID 1000 + GID 1000 again
+/home/alonso/.transitive/unshared.sh: line 103: /home/bin/revertuid: No such file or directory
+using unshare -r
+preparing sandbox for @transitive-robotics/initializer (alonso)
+mount: /home/alonso/.transitive/tmp/tmp.2Do23B8rST/usr/merged: wrong fs type, bad option, bad superblock on overlay, missing codepage or helper program, or other error.
+/home/alonso/.transitive/unshared.sh: line 71: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 75: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 77: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 79: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 80: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 82: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 85: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 86: ln: command not found
+reverting to UID 1000 + GID 1000 again
+/home/alonso/.transitive/unshared.sh: line 103: /home/bin/revertuid: No such file or directory
+using unshare -r
+preparing sandbox for @transitive-robotics/initializer (alonso)
+mount: /home/alonso/.transitive/tmp/tmp.FztrqDKQAo/usr/merged: wrong fs type, bad option, bad superblock on overlay, missing codepage or helper program, or other error.
+/home/alonso/.transitive/unshared.sh: line 71: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 75: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 77: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 79: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 80: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 82: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 85: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 86: ln: command not found
+reverting to UID 1000 + GID 1000 again
+/home/alonso/.transitive/unshared.sh: line 103: /home/bin/revertuid: No such file or directory
+using unshare -r
+preparing sandbox for @transitive-robotics/initializer (alonso)
+mount: /home/alonso/.transitive/tmp/tmp.RbCJYaRf1v/usr/merged: wrong fs type, bad option, bad superblock on overlay, missing codepage or helper program, or other error.
+/home/alonso/.transitive/unshared.sh: line 71: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 75: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 77: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 79: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 80: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 82: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 85: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 86: ln: command not found
+reverting to UID 1000 + GID 1000 again
+/home/alonso/.transitive/unshared.sh: line 103: /home/bin/revertuid: No such file or directory
+using unshare -r
+preparing sandbox for @transitive-robotics/initializer (alonso)
+mount: /home/alonso/.transitive/tmp/tmp.frrfUz0np1/usr/merged: wrong fs type, bad option, bad superblock on overlay, missing codepage or helper program, or other error.
+/home/alonso/.transitive/unshared.sh: line 71: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 75: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 77: /usr/bin/mount: No such file or directory
+/home/alonso/.transitive/unshared.sh: line 79: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 80: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 82: ln: command not found
+/home/alonso/.transitive/unshared.sh: line 85: rm: command not found
+/home/alonso/.transitive/unshared.sh: line 86: ln: command not found
+reverting to UID 1000 + GID 1000 again
+/home/alonso/.transitive/unshared.sh: line 106: bash: command not found
+using unshare -r
+preparing sandbox for @transitive-robotics/initializer (alonso)
+Skipping overlay mounts for development
+mount: /usr: special device /usr/merged does not exist.
+mount: /opt: special device /opt/merged does not exist.
+reverting to UID 1000 + GID 1000 again
+uid=0(root) gid=0(root) groups=0(root),65534(nogroup)
+found ROS noetic, sourcing it
+starting while loop for @transitive-robotics/initializer: pid = 8498
+New node.js modules version detected (115 vs 93)
+Reinstalling to rebuild all native code in dependencies
+(node:8588) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm notice 
+npm notice New major version of npm available! 10.5.0 -> 11.4.2
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v11.4.2>
+npm notice Run `npm install -g npm@11.4.2` to update!
+npm notice 
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_40_09_795Z-debug-0.log
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 8612
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_40_11_575Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:8634) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 8647
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_40_15_857Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:8669) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 8682
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_40_20_261Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:8707) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 8720
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_40_25_614Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:8742) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 8755
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_40_31_600Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:8777) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 8790
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_40_37_585Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:8812) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 8825
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_40_43_390Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:8847) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 8860
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_40_49_222Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:8882) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 8895
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_40_55_284Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:8917) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 8944
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_41_00_047Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:8987) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 9013
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_41_14_708Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:9035) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 9048
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_41_20_659Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:9073) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 9086
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_41_26_349Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:9108) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 9121
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_41_31_894Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:9143) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 9156
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_41_37_718Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:9178) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 9191
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_42_04_011Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:9213) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 9237
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_42_08_053Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:9268) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 9347
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_42_22_794Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:9391) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code ETIMEDOUT
+npm ERR! errno ETIMEDOUT
+npm ERR! network request to https://registry.transitiverobotics.com/@transitive-robotics%2finitializer failed, reason: 
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_42_24_660Z-debug-0.log
+(node:9711) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_43_36_610Z-debug-0.log
+(node:9726) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code ETIMEDOUT
+npm ERR! errno ETIMEDOUT
+npm ERR! network request to https://registry.transitiverobotics.com/@transitive-robotics%2finitializer failed, reason: 
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_43_38_421Z-debug-0.log
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 10098
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_44_50_553Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:10120) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 10190
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_45_05_396Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:10223) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 10284
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_45_19_542Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:10306) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code ETIMEDOUT
+npm ERR! errno ETIMEDOUT
+npm ERR! network request to https://registry.transitiverobotics.com/@transitive-robotics%2finitializer failed, reason: 
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_45_21_718Z-debug-0.log
+(node:10793) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_46_33_672Z-debug-0.log
+(node:10804) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_46_35_831Z-debug-0.log
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 10817
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_46_37_778Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:10852) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 10878
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_46_42_287Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:10922) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 11003
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_46_56_998Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:11025) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 11049
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_47_01_187Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:11071) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 11095
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_47_05_185Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:11125) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 11532
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_48_30_989Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:11554) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code ETIMEDOUT
+npm ERR! errno ETIMEDOUT
+npm ERR! network request to https://registry.transitiverobotics.com/@transitive-robotics%2finitializer failed, reason: 
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_48_32_627Z-debug-0.log
+(node:11908) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_49_45_341Z-debug-0.log
+(node:11969) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_49_57_389Z-debug-0.log
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 11994
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_49_59_498Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:12016) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 12088
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_50_14_435Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:12110) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 12134
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_50_18_867Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:12170) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 12283
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_50_44_022Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:12310) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 12380
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_50_58_361Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:12416) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 12451
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_51_02_811Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:12484) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 12499
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_51_06_722Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:12521) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code ETIMEDOUT
+npm ERR! errno ETIMEDOUT
+npm ERR! network request to https://registry.transitiverobotics.com/@transitive-robotics%2finitializer failed, reason: 
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_51_08_797Z-debug-0.log
+(node:12841) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_52_21_824Z-debug-0.log
+(node:12871) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_52_23_360Z-debug-0.log
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 12919
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_52_35_308Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:12962) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code ETIMEDOUT
+npm ERR! errno ETIMEDOUT
+npm ERR! network request to https://registry.transitiverobotics.com/@transitive-robotics%2finitializer failed, reason: 
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_52_36_874Z-debug-0.log
+(node:13061) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_53_49_327Z-debug-0.log
+(node:13072) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_54_01_763Z-debug-0.log
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 13140
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T06_55_14_533Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:13162) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+using unshare -r
+preparing sandbox for @transitive-robotics/initializer (alonso)
+Skipping overlay mounts for development
+mount: /usr: special device /usr/merged does not exist.
+mount: /opt: special device /opt/merged does not exist.
+reverting to UID 1000 + GID 1000 again
+uid=0(root) gid=0(root) groups=0(root),65534(nogroup)
+found ROS noetic, sourcing it
+starting while loop for @transitive-robotics/initializer: pid = 13877
+(node:13957) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 13989
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_14_07_275Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:14018) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 14069
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_14_22_290Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:14091) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code ETIMEDOUT
+npm ERR! errno ETIMEDOUT
+npm ERR! network request to https://registry.transitiverobotics.com/@transitive-robotics%2finitializer failed, reason: 
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_14_24_056Z-debug-0.log
+(node:14109) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_15_35_952Z-debug-0.log
+(node:14128) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_16_48_168Z-debug-0.log
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 14141
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_16_50_160Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:14163) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code ETIMEDOUT
+npm ERR! errno ETIMEDOUT
+npm ERR! network request to https://registry.transitiverobotics.com/@transitive-robotics%2finitializer failed, reason: 
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_16_52_104Z-debug-0.log
+(node:14182) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_18_03_916Z-debug-0.log
+(node:14195) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_18_16_103Z-debug-0.log
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 14208
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_18_18_150Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:14230) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code ETIMEDOUT
+npm ERR! errno ETIMEDOUT
+npm ERR! network request to https://registry.transitiverobotics.com/@transitive-robotics%2finitializer failed, reason: 
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_18_20_124Z-debug-0.log
+(node:14246) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_19_31_876Z-debug-0.log
+(node:14260) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_19_44_098Z-debug-0.log
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 14273
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_19_46_000Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:14295) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 14308
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_20_11_829Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:14330) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 14343
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_20_26_427Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:14365) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 14383
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_20_51_289Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:14405) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 14418
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_20_55_893Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:14440) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 14453
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_21_20_839Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:14475) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 14494
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_22_46_005Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:14516) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 14529
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_23_00_693Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:14551) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 14581
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_23_26_071Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:14641) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 14818
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_24_41_001Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:14843) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 14888
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_24_55_780Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:14910) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 14929
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_25_10_335Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:14951) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 14964
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_25_15_337Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:14986) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code ETIMEDOUT
+npm ERR! errno ETIMEDOUT
+npm ERR! network request to https://registry.transitiverobotics.com/@transitive-robotics%2finitializer failed, reason: 
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_25_17_585Z-debug-0.log
+(node:15169) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_26_29_615Z-debug-0.log
+(node:15213) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_26_31_552Z-debug-0.log
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15233
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_26_33_714Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15259) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15318
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_27_48_958Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15340) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code ETIMEDOUT
+npm ERR! errno ETIMEDOUT
+npm ERR! network request to https://registry.transitiverobotics.com/@transitive-robotics%2finitializer failed, reason: 
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_27_50_974Z-debug-0.log
+(node:15359) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_29_03_379Z-debug-0.log
+(node:15370) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_29_05_321Z-debug-0.log
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15383
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_29_06_964Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15405) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15418
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_29_32_347Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15440) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15461
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_30_47_562Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15483) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15499
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_32_02_726Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15521) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15534
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_32_28_170Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15556) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15572
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_32_43_448Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15594) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15607
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_32_47_720Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15629) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15642
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_32_52_261Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15664) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15677
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_33_06_908Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15699) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15714
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_33_11_316Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15736) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15749
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_33_26_186Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15771) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15785
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_33_41_044Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15810) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15823
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_33_45_600Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15857) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15870
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_33_50_430Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15892) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15906
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_34_05_557Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15928) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15941
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_34_10_156Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15963) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 15976
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_34_25_650Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:15998) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 16014
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_34_50_835Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:16036) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 16054
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_36_06_148Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:16076) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 16089
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_36_10_783Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:16111) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 16244
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_37_26_361Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:16266) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 16378
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_37_41_153Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:16400) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 16413
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_37_45_476Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:16435) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 16448
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_37_50_613Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:16481) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 16526
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_39_05_589Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:16548) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 16563
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_39_20_264Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:16585) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code ETIMEDOUT
+npm ERR! errno ETIMEDOUT
+npm ERR! network request to https://registry.transitiverobotics.com/@transitive-robotics%2finitializer failed, reason: 
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_39_22_311Z-debug-0.log
+(node:16714) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_40_34_162Z-debug-0.log
+(node:16725) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_40_36_202Z-debug-0.log
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 16738
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_40_38_199Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:16760) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 16776
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_41_03_315Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:16798) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 16811
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_41_07_702Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:16833) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code ETIMEDOUT
+npm ERR! errno ETIMEDOUT
+npm ERR! network request to https://registry.transitiverobotics.com/@transitive-robotics%2finitializer failed, reason: 
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_41_09_629Z-debug-0.log
+(node:16985) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_42_32_819Z-debug-0.log
+(node:16996) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.transitiverobotics.com/@transitive-robotics%2finitializer
+npm ERR! 404 
+npm ERR! 404  '@transitive-robotics/initializer@*' is not in this registry.
+npm ERR! 404 
+npm ERR! 404 Note that you can also install from a
+npm ERR! 404 tarball, folder, http url, or git url.
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_42_35_384Z-debug-0.log
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 17012
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_42_47_698Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:17034) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 17047
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_42_52_162Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:17069) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 17091
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_44_17_758Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:17113) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 17126
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_44_22_400Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:17148) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 17171
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_45_37_518Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:17193) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 17209
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_45_41_140Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:17237) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 17250
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_45_44_417Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:17272) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 17285
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_45_48_108Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:17313) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 17326
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_45_51_344Z-debug-0.log
+Restarting @transitive-robotics/initializer
+(node:17348) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+TRCONFIG: {
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  },
+  "package": {}
+}
+/home/bin/startPackage.sh: line 125: cd: /home/transitive/node_modules/@transitive-robotics/initializer: No such file or directory
+cat: ../../../password: No such file or directory
+node process pid: 17361
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/alonso/.npm/_logs/2025-06-13T08_45_54_728Z-debug-0.log
+Restarting @transitive-robotics/initializer

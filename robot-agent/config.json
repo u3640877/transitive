@@ -1,0 +1,8 @@
+{
+  "global": {
+    "desiredPackages": [
+      "@transitive-robotics/initializer",
+      "@transitive-robotics/cpu-sender"
+    ]
+  }
+}

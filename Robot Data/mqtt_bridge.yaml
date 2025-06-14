@@ -1,0 +1,9 @@
+mqtt:
+  connection:
+    host: localhost
+    port: 1883
+bridge:
+  - factory: mqtt_bridge.bridge:RosToMqttBridge
+    msg_type: std_msgs.msg:String
+    topic_from: /cpu_value
+    topic_to: agent/mockbot001/cpu_value
